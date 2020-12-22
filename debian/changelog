@@ -1,0 +1,5 @@
+mc-force-sensor-calibration-controller (1.0.0-1ubuntu1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Arnaud Tanguy <arn.tanguy+ppa@gmail.com>  Tue, 22 Dec 2020 12:00:00 +0900

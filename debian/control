@@ -1,0 +1,25 @@
+Source: mc-force-sensor-calibration-controller
+Priority: optional
+Maintainer: Arnaud Tanguy <arn.tanguy+ppa@gmail.com>
+Standards-Version: 3.9.5
+Section: libs
+Homepage: http://github.com/jrl-umi3218/mc_force_sensor_calibration_controller
+Vcs-Git: git://github.com/jrl-umi3218/mc_force_sensor_calibration_controller
+Vcs-Browser: http://github.com/jrl-umi3218/mc_force_sensor_calibration_controller
+Build-Depends: debhelper (>= 9),
+ pkg-config,
+ cmake,
+ doxygen,
+ libboost-chrono-dev,
+ libboost-system-dev,
+ libboost-timer-dev,
+ libeigen3-dev (>= 3.2)
+ libmc-rtc-dev (>=1.6)
+
+Package: mc-force-sensor-calibration-controller
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: mc-rtc controller to perform force sensor calibration
+
